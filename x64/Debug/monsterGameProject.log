@@ -1,0 +1,5 @@
+﻿  monsterGameProject.cpp
+C:\Users\dayoungKwon\Desktop\github\monsterGameProject\monsterGameProject.cpp(137,40): warning C4101: 'nHp' :참조되지 않은 지역 변수입니다.
+C:\Users\dayoungKwon\Desktop\github\monsterGameProject\monsterGameProject.cpp(137,35): warning C4101: 'yHp' :참조되지 않은 지역 변수입니다.
+C:\Users\dayoungKwon\Desktop\github\monsterGameProject\monsterGameProject.cpp(258,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  monsterGameProject.vcxproj -> C:\Users\dayoungKwon\Desktop\github\monsterGameProject\x64\Debug\monsterGameProject.exe
