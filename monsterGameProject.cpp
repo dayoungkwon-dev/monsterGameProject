@@ -39,17 +39,17 @@ void levelUp(int level, int hp);
 void attackGun();
 void attackKnife();
 void showMonster();
-void youDie();
+void youDied();
 void showPotential();
 void myHp(int hp);
 void textcolor(int foreground, int background);
 
 void Character::setHp(int chgHp) {
-		hp = chgHp;
-	}
+	hp = chgHp;
+}
 int Character::getHp() {
-		return hp;
-	}
+	return hp;
+}
 void Character::setLevel(int chgLevel) {
 	level = chgLevel;
 }
@@ -176,7 +176,7 @@ int main() {
 
 			// GAME OVER
 			if (c1.hp <= 0) {
-				youDie();
+				youDied();
 				break;
 			}
 		}
@@ -325,7 +325,7 @@ void textcolor(int foreground, int background) {
 }
 
 // 게임오버 출력.
-void youDie() {
+void youDied() {
 	textcolor(RED, BLACK);
 	cout << "○○○○○○○○○○○○○○○○○○○○○○○○○" << endl;
 	cout << "○○●○○●○○○●●○○○●○○●○○○○○○○" << endl;
